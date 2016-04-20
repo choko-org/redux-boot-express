@@ -1,0 +1,40 @@
+{
+  "name": "redux-boot-express",
+  "version": "1.0.0",
+  "description": "Redux Boot module to use Express web server.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "pretest": "rm -f build/test.js* && webpack --config ./webpack.config.test.js",
+    "test": "tape build/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choko-org/redux-boot-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choko-org/redux-boot-express/issues"
+  },
+  "homepage": "https://github.com/choko-org/redux-boot-express#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "redux": "^3.3.1",
+    "redux-actions": "^0.9.1",
+    "redux-boot": "^0.1.1",
+    "redux-promise": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-polyfill": "^6.7.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.6.1",
+    "supertest": "^1.2.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1",
+    "webpack": "^1.12.14"
+  }
+}

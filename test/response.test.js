@@ -1,16 +1,5 @@
-# Redux Boot Express
-Redux Boot module to use [Express](http://expressjs.com/) web server.
-
-## Install
-```bash
-npm install redux-boot-express --save
-```
-
-## Usage
-
-```js
 import boot from 'redux-boot'
-import webServerModule, {HTTP_REQUEST} from 'redux-boot-express'
+import webServerModule, {HTTP_REQUEST} from '../src'
 
 const helloModule = {
   middleware({getState, dispatch}) {
@@ -39,4 +28,3 @@ const modules = [
 ]
 
 const app = boot(initialState, modules)
-```
