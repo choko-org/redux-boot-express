@@ -1,4 +1,7 @@
 # Redux Boot Express
+
+[![Build Status](https://travis-ci.org/choko-org/redux-boot-express.svg?branch=master)](https://travis-ci.org/choko-org/redux-boot-express)
+
 Redux Boot module to use [Express](http://expressjs.com/) web server.
 
 ## Install
