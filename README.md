@@ -9,6 +9,16 @@ Redux Boot module to use [Express](http://expressjs.com/) web server.
 npm install redux-boot-express --save
 ```
 
+## Actions constants
+
+```js
+import {
+  HTTP_REQUEST,
+  HTTP_BOOT,
+  HTTP_AFTER_BOOT
+} from 'redux-boot-express'
+```
+
 ## Usage
 
 ```js
