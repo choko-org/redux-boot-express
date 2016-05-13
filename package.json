@@ -1,19 +1,21 @@
 {
   "name": "redux-boot-express",
-  "version": "1.0.0",
-  "description": "Redux Boot module to use Express web server.",
-  "main": "webpack.config.js",
+  "version": "0.1.0",
+  "description": "Redux Boot module wich implments Express web server.",
+  "main": "build/index.js",
   "scripts": {
+    "build": "rm -f build/index.js* && webpack",
     "pretest": "rm -f build/test.js* && webpack --config ./webpack.config.test.js",
-    "test": "tape build/test.js | tap-spec"
+    "test": "tape build/test.js | tap-spec",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/choko-org/redux-boot-express.git"
   },
-  "keywords": [],
+  "keywords": ["redux-boot", "module", "express", "web server", "redux"],
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/choko-org/redux-boot-express/issues"
   },
