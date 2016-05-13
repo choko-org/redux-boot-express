@@ -1,6 +1,6 @@
 {
   "name": "redux-boot-express",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Redux Boot module wich implments Express web server.",
   "main": "build/index.js",
   "scripts": {
