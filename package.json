@@ -15,7 +15,7 @@
   },
   "keywords": ["redux-boot", "module", "express", "web server", "redux"],
   "author": "",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/choko-org/redux-boot-express/issues"
   },

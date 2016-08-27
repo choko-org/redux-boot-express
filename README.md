@@ -53,3 +53,7 @@ const modules = [
 
 const app = boot(initialState, modules)
 ```
+
+## License
+
+[MIT](LICENSE.md)
